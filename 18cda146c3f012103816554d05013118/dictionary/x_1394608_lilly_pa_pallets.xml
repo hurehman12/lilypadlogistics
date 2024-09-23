@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e6bfb54ec33412103816554d050131f7" label="Pallets" max_length="40" name="x_1394608_lilly_pa_pallets" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Pallet ID" max_length="40" name="pallet_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice/>
+        </element>
+        <element label="Weight Capacity" max_length="40" name="weight_capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pallet Type" max_length="40" name="pallet_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Stock Quantity" max_length="40" name="stock_quantity" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Material" max_length="40" name="material" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

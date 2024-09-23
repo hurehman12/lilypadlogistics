@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f2442c2c37412103816554d0501317b" label="Customer" max_length="40" name="x_1394608_lilly_pa_customer" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Name" max_length="40" name="business_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Customer ID" max_length="32" name="customer_id" reference="x_1394608_lilly_pa_pallets" type="reference"/>
+        <element attributes="encode_utf8=false" label="Address" max_length="32" name="address" reference="x_1394608_lilly_pa_pallets" type="reference"/>
+        <index name="index">
+            <element name="address"/>
+        </index>
+        <index name="index2">
+            <element name="customer_id"/>
+        </index>
+    </element>
+</database>
