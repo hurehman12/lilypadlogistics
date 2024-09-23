@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5318420ac37412103816554d050131a9" label="Delivery Status" max_length="40" name="x_1394608_lilly_pa_delivery_status" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Scheduled Delivery Date" max_length="40" name="scheduled_delivery_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Order ID" max_length="32" name="order_id" reference="x_1394608_lilly_pa_orders" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Driver ID" max_length="40" name="delivery_driver_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Delivery Status" max_length="40" name="delivery_status" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Delivery ID" max_length="40" name="delivery_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="order_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4eb54246c37412103816554d05013146" label="Inventory" max_length="40" name="x_1394608_lilly_pa_inventory" type="collection">
+        <element label="Current Stock" max_length="40" name="current_stock" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Inventory ID" max_length="40" name="inventory_id" type="string"/>
+        <element attributes="encode_utf8=false" label="Pallet ID" max_length="32" name="pallet_id" reference="x_1394608_lilly_pa_pallets" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reorder Threshold" max_length="40" name="reorder_threshold" type="integer"/>
+        <index name="index">
+            <element name="pallet_id"/>
+        </index>
+    </element>
+</database>

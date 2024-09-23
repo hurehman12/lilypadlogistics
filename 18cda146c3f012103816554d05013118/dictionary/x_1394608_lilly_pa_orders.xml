@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18d20642c37412103816554d050131c7" label="Orders" max_length="40" name="x_1394608_lilly_pa_orders" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Order Status" max_length="40" name="order_status" type="choice">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Pallet ID" max_length="32" name="pallet_id" reference="x_1394608_lilly_pa_pallets" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer ID" max_length="40" name="customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" max_length="40" name="order_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Address" max_length="40" name="delivery_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Date" max_length="40" name="order_date" type="glide_date_time"/>
+        <element label="Total Amount" max_length="40" name="total_amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <index name="index">
+            <element name="pallet_id"/>
+        </index>
+    </element>
+</database>
