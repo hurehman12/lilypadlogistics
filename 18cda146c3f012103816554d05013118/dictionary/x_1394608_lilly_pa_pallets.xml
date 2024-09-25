@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e6bfb54ec33412103816554d050131f7" label="Pallets" max_length="40" name="x_1394608_lilly_pa_pallets" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Pallet ID" max_length="40" name="pallet_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="size" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Material" max_length="40" name="material" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corrugated Paper" sequence="4" value="Corrugated Paper"/>
+                <element inactive_on_update="false" label="Plastic" sequence="2" value="Plastic"/>
+                <element inactive_on_update="false" label="Metal" sequence="3" value="Metal"/>
+                <element inactive_on_update="false" label="Wood" sequence="1" value="Wood"/>
+                <element inactive="true" inactive_on_update="true" label="-TBDTARGET-x_1394608_lilly_pa_pallets" sequence="0" value="-TBDTARGET-x_1394608_lilly_pa_pallets"/>
+            </choice>
         </element>
         <element label="Weight Capacity" max_length="40" name="weight_capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Pallet ID" max_length="40" name="pallet_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Pallet Type" max_length="40" name="pallet_type" type="choice">
             <choice/>
         </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Stock Quantity" max_length="40" name="stock_quantity" type="integer"/>
-        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Material" max_length="40" name="material" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="36 in. x 32 in." sequence="0" value="36 in. x 32 in."/>
+                <element inactive_on_update="false" label="24  in. x 24  in." sequence="1" value="24  in. x 24  in."/>
+                <element inactive_on_update="false" label="18  in. x 48  in." sequence="2" value="18  in. x 48  in."/>
+            </choice>
         </element>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
     </element>
 </database>

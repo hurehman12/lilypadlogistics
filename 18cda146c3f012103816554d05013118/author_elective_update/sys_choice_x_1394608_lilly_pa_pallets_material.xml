@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="material" table="x_1394608_lilly_pa_pallets" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>material</element>
+            <name>x_1394608_lilly_pa_pallets</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Jay.v</sys_created_by>
+            <sys_created_on>2024-09-25 01:06:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>material</sys_name>
+            <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+            <sys_update_name>sys_choice_x_1394608_lilly_pa_pallets_material</sys_update_name>
+            <sys_updated_by>Jay.v</sys_updated_by>
+            <sys_updated_on>2024-09-25 01:06:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>material</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>-TBDTARGET-x_1394608_lilly_pa_pallets</label>
+            <language>en</language>
+            <name>x_1394608_lilly_pa_pallets</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Jay.v</sys_created_by>
+            <sys_created_on>2024-09-25 01:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Jay.v</sys_updated_by>
+            <sys_updated_on>2024-09-25 01:10:51</sys_updated_on>
+            <value>-TBDTARGET-x_1394608_lilly_pa_pallets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wood</label>
+            <language>en</language>
+            <name>x_1394608_lilly_pa_pallets</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Jay.v</sys_created_by>
+            <sys_created_on>2024-09-25 01:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jay.v</sys_updated_by>
+            <sys_updated_on>2024-09-25 01:06:15</sys_updated_on>
+            <value>Wood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plastic</label>
+            <language>en</language>
+            <name>x_1394608_lilly_pa_pallets</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Jay.v</sys_created_by>
+            <sys_created_on>2024-09-25 01:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jay.v</sys_updated_by>
+            <sys_updated_on>2024-09-25 01:06:15</sys_updated_on>
+            <value>Plastic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Metal</label>
+            <language>en</language>
+            <name>x_1394608_lilly_pa_pallets</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Jay.v</sys_created_by>
+            <sys_created_on>2024-09-25 01:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jay.v</sys_updated_by>
+            <sys_updated_on>2024-09-25 01:06:15</sys_updated_on>
+            <value>Metal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrugated Paper</label>
+            <language>en</language>
+            <name>x_1394608_lilly_pa_pallets</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Jay.v</sys_created_by>
+            <sys_created_on>2024-09-25 01:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Jay.v</sys_updated_by>
+            <sys_updated_on>2024-09-25 01:06:15</sys_updated_on>
+            <value>Corrugated Paper</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
