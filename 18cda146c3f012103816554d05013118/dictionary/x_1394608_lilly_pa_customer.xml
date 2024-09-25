@@ -3,15 +3,12 @@
         <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="customer_name" type="string"/>
         <element attributes="encode_utf8=false" label="Address" max_length="32" name="address" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="phone_number"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Additional Comments" max_length="4000" name="work_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Customer ID" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Business Name" max_length="40" name="business_name" type="string"/>
-        <element attributes="encode_utf8=false" label="Customer ID" max_length="32" name="customer_id" type="string"/>
         <element label="Email" max_length="100" name="email" type="email"/>
         <index name="index">
             <element name="address"/>
-        </index>
-        <index name="index2">
-            <element name="customer_id"/>
         </index>
     </element>
 </database>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>phone</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 00:01:19</sys_created_on>
+        <sys_id>bfe62f1ec37092103816554d0501317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>phone</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>sys_ui_policy_action_bfe62f1ec37092103816554d0501317e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 00:01:19</sys_updated_on>
+        <table>x_1394608_lilly_pa_customer</table>
+        <ui_policy display_value="UI Policy's for Customer Table.">1666afdac37092103816554d050131c9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=bfe62f1ec37092103816554d0501317e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</application>
+        <file_path/>
+        <instance_id>30ff90781bb20a9ce84d2f8dee4bcb51</instance_id>
+        <instance_name>dev274513</instance_name>
+        <name>sys_ui_policy_action_bfe62f1ec37092103816554d0501317e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>phone</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-25 00:01:19</sys_created_on><sys_id>bfe62f1ec37092103816554d0501317e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>phone</sys_name><sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package><sys_policy/><sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope><sys_update_name>sys_ui_policy_action_bfe62f1ec37092103816554d0501317e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-25 00:01:19</sys_updated_on><table>x_1394608_lilly_pa_customer</table><ui_policy display_value="UI Policy's for Customer Table.">1666afdac37092103816554d050131c9</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=bfe62f1ec37092103816554d0501317e"/></record_update>]]></payload>
+        <payload_hash>1142234563</payload_hash>
+        <record_name>phone</record_name>
+        <reverted_from/>
+        <source>a4988b52c3fc52103816554d05013110</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 00:01:19</sys_created_on>
+        <sys_id>85f6ab1ec37092103816554d050131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192267b7a580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 00:01:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>89f6ab1e607092100b2b9728a7a0d7c2</update_guid>
+        <update_guid_history>89f6ab1e607092100b2b9728a7a0d7c2:1142234563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 00:02:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2f7051bd42a844fc8abce0661b940b10</sys_id>
+        <sys_metadata>bfe62f1ec37092103816554d0501317e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>phone</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_parent display_value="UI Policy's for Customer Table.">1666afdac37092103816554d050131c9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_scope_delete display_value="">05236a17456c4db49344d3be88d19dc4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_bfe62f1ec37092103816554d0501317e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_bfe62f1ec37092103816554d0501317e">85f6ab1ec37092103816554d050131c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 00:02:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
