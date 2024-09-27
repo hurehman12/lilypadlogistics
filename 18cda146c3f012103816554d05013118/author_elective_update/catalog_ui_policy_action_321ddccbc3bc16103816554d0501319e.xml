@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Pallets">f58851b6c3fcd2103816554d050131c2</catalog_item>
+        <catalog_variable>IO:a13c948bc3bc16103816554d05013149</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message>This will add $10 to your order.</field_message>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:15:16</sys_created_on>
+        <sys_id>321ddccbc3bc16103816554d0501319e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>what_size_pallet_do_you_need</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_321ddccbc3bc16103816554d0501319e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:17:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Test Ui action policy">5cccd4cbc3bc16103816554d050131f2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>what_size_pallet_do_you_need</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=321ddccbc3bc16103816554d0501319e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</application>
+        <file_path/>
+        <instance_id>30ff90781bb20a9ce84d2f8dee4bcb51</instance_id>
+        <instance_name>dev274513</instance_name>
+        <name>catalog_ui_policy_action_321ddccbc3bc16103816554d0501319e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Pallets">f58851b6c3fcd2103816554d050131c2</catalog_item><catalog_variable>IO:a13c948bc3bc16103816554d05013149</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message>This will add $10 to your order.</field_message><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-26 17:15:16</sys_created_on><sys_id>321ddccbc3bc16103816554d0501319e</sys_id><sys_mod_count>5</sys_mod_count><sys_name>what_size_pallet_do_you_need</sys_name><sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package><sys_policy/><sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope><sys_update_name>catalog_ui_policy_action_321ddccbc3bc16103816554d0501319e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-26 17:17:03</sys_updated_on><table/><ui_policy display_value="Test Ui action policy">5cccd4cbc3bc16103816554d050131f2</ui_policy><value/><value_action>ignore</value_action><variable>what_size_pallet_do_you_need</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=321ddccbc3bc16103816554d0501319e"/></record_update>]]></payload>
+        <payload_hash>-1960170576</payload_hash>
+        <record_name>what_size_pallet_do_you_need</record_name>
+        <reverted_from/>
+        <source>a4988b52c3fc52103816554d05013110</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:17:03</sys_created_on>
+        <sys_id>b69dd80fc3bc16103816554d0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922f5615b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:17:03</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>3e9dd80f2cbc1610066e3bb44285808a</update_guid>
+        <update_guid_history>3e9dd80f2cbc1610066e3bb44285808a:-1960170576,088d580f02bc16109fbef2f3f9868841:-1274466906,766d940fe3bc1610e88905d53e1b0cec:-2131186542,7f5d540ffebc1610682bff193362c2c4:-1741641386,f05d140fb6bc16107355d1a64d6ebc8f:1486614569,243d500fe4bc1610fafd5e932b69b878:1387452294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="what_size_pallet_do_you_need">8cad940fc3bc16103816554d05013105</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:17:08</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0d899bdad9754f17836fffaa8f1de301</sys_id>
+        <sys_metadata>321ddccbc3bc16103816554d0501319e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what_size_pallet_do_you_need</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_scope_delete display_value="">05236a17456c4db49344d3be88d19dc4</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_321ddccbc3bc16103816554d0501319e</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_321ddccbc3bc16103816554d0501319e">b69dd80fc3bc16103816554d0501318b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:17:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

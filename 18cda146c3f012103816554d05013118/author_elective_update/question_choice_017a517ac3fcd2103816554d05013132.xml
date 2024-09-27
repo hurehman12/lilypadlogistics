@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>25</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Pallet Size?">8c49d5f6c3fcd2103816554d05013165</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 03:05:26</sys_created_on>
+        <sys_id>017a517ac3fcd2103816554d05013132</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BIg</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>question_choice_017a517ac3fcd2103816554d05013132</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 03:05:46</sys_updated_on>
+        <text>BIg</text>
+        <value>bg</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=017a517ac3fcd2103816554d05013132"/>
+    <fx_price action="DELETE">
+        <amount>25</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>017a517ac3fcd2103816554d05013132</id>
+        <parent/>
+        <reference_amount>25</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 03:05:47</sys_created_on>
+        <sys_id>09ca517ac3fcd2103816554d050131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 03:05:47</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</application>
+        <file_path/>
+        <instance_id>30ff90781bb20a9ce84d2f8dee4bcb51</instance_id>
+        <instance_name>dev274513</instance_name>
+        <name>question_choice_017a517ac3fcd2103816554d05013132</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>25</misc><order>100</order><published_ref/><question display_value="Pallet Size?">8c49d5f6c3fcd2103816554d05013165</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-26 03:05:26</sys_created_on><sys_id>017a517ac3fcd2103816554d05013132</sys_id><sys_mod_count>1</sys_mod_count><sys_name>BIg</sys_name><sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package><sys_policy/><sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope><sys_update_name>question_choice_017a517ac3fcd2103816554d05013132</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-26 03:05:46</sys_updated_on><text>BIg</text><value>bg</value></question_choice><fx_price action="delete_multiple" query="id=017a517ac3fcd2103816554d05013132"/><fx_price action="INSERT_OR_UPDATE"><amount>25</amount><currency display_value="USD">USD</currency><field>misc</field><id>017a517ac3fcd2103816554d05013132</id><parent/><reference_amount>25</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-26 03:05:47</sys_created_on><sys_id>09ca517ac3fcd2103816554d050131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-26 03:05:47</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1220974014</payload_hash>
+        <record_name>BIg</record_name>
+        <reverted_from/>
+        <source>a4988b52c3fc52103816554d05013110</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 03:05:47</sys_created_on>
+        <sys_id>85ca997ac3fcd2103816554d05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922c4ab7ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 03:05:47</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>0dca997adefcd210b9de9867a95a0863</update_guid>
+        <update_guid_history>0dca997adefcd210b9de9867a95a0863:-1220974014,84ba197a7dfcd21095f3327b479233a5:-986880850</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="BIg">23e914c7c3bc16103816554d05013171</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:00:59</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>4af9947f09a4407eb0bf7e218b3bc949</sys_id>
+        <sys_metadata>017a517ac3fcd2103816554d05013132</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIg</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_parent display_value="">8c49d5f6c3fcd2103816554d05013165</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_scope_delete display_value="">05236a17456c4db49344d3be88d19dc4</sys_scope_delete>
+        <sys_update_name>question_choice_017a517ac3fcd2103816554d05013132</sys_update_name>
+        <sys_update_version display_value="question_choice_017a517ac3fcd2103816554d05013132">85ca997ac3fcd2103816554d05013164</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:00:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

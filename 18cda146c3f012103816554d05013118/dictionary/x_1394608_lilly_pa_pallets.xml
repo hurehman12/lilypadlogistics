@@ -9,6 +9,7 @@
                 <element inactive="true" inactive_on_update="true" label="-TBDTARGET-x_1394608_lilly_pa_pallets" sequence="0" value="-TBDTARGET-x_1394608_lilly_pa_pallets"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
         <element label="Weight Capacity" max_length="40" name="weight_capacity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Pallet ID" max_length="40" name="pallet_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Pallet Type" max_length="40" name="pallet_type" type="choice">
@@ -18,9 +19,9 @@
         <element label="Stock Quantity" max_length="40" name="stock_quantity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="size" type="choice">
             <choice>
-                <element inactive_on_update="false" label="36 in. x 32 in." sequence="0" value="36 in. x 32 in."/>
-                <element inactive_on_update="false" label="24  in. x 24  in." sequence="1" value="24  in. x 24  in."/>
-                <element inactive_on_update="false" label="18  in. x 48  in." sequence="2" value="18  in. x 48  in."/>
+                <element inactive_on_update="false" label="36 in. x 32 in." sequence="2" value="big"/>
+                <element inactive_on_update="false" label="24  in. x 24  in." sequence="1" value="med"/>
+                <element inactive_on_update="false" label="18  in. x 48  in." sequence="0" value="small"/>
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>

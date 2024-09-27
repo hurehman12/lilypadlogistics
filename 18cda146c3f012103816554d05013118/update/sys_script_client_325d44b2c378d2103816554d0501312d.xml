@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>size</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set weight capcity based on size</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+  var size = g_form.getValue('size');
+
+    switch(size) {
+        case 'big':
+            g_form.setValue('weight_capacity', '1600LBS');
+			g_form.setValue('price', '13' ); 
+            break;
+        case 'med':
+            g_form.setValue('weight_capacity', '800LBS'); 
+			g_form.setValue('price', '14' );  
+            break;
+        case 'small':
+            g_form.setValue('weight_capacity', '200LBS'); 
+			g_form.setValue('price', '15' );  
+            break;
+        default:
+            g_form.setValue('weight_capacity', ''); 
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 21:29:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>325d44b2c378d2103816554d0501312d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Set weight capcity based on size</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>sys_script_client_325d44b2c378d2103816554d0501312d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 21:59:04</sys_updated_on>
+        <table>x_1394608_lilly_pa_pallets</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

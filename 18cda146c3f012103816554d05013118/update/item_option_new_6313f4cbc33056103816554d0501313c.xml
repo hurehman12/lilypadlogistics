@@ -2,11 +2,11 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item/>
+        <cat_item display_value="Pallets">f58851b6c3fcd2103816554d050131c2</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>size</choice_field>
-        <choice_table>x_1394608_lilly_pa_pallets</choice_table>
+        <choice_field/>
+        <choice_table/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -37,17 +37,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>what_size_of_pallet_do_you_need</name>
-        <order>200</order>
+        <name>unique_cust_id</name>
+        <order>1</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What size of pallet do you need?</question_text>
+        <question_text>Unique Cust ID</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -74,20 +74,20 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>Jay.v</sys_created_by>
-        <sys_created_on>2024-09-25 01:20:14</sys_created_on>
-        <sys_id>a708f756c3f092103816554d050131bb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>What size of pallet do you need?</sys_name>
+        <sys_created_by>srividya</sys_created_by>
+        <sys_created_on>2024-09-26 18:51:17</sys_created_on>
+        <sys_id>6313f4cbc33056103816554d0501313c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Unique Cust ID</sys_name>
         <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
-        <sys_update_name>item_option_new_a708f756c3f092103816554d050131bb</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-26 02:39:10</sys_updated_on>
+        <sys_update_name>item_option_new_6313f4cbc33056103816554d0501313c</sys_update_name>
+        <sys_updated_by>srividya</sys_updated_by>
+        <sys_updated_on>2024-09-26 18:52:47</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>3</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=a708f756c3f092103816554d050131bb"/>
-    <fx_price action="delete_multiple" query="id=a708f756c3f092103816554d050131bb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6313f4cbc33056103816554d0501313c"/>
+    <fx_price action="delete_multiple" query="id=6313f4cbc33056103816554d0501313c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>a708f756c3f092103816554d050131bb</id>
+        <id>6313f4cbc33056103816554d0501313c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>Jay.v</sys_created_by>
-        <sys_created_on>2024-09-25 01:20:14</sys_created_on>
-        <sys_id>1509fbd6c3f092103816554d050131d8</sys_id>
+        <sys_created_by>srividya</sys_created_by>
+        <sys_created_on>2024-09-26 18:51:17</sys_created_on>
+        <sys_id>1f23b8cbc33056103816554d050131c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Jay.v</sys_updated_by>
-        <sys_updated_on>2024-09-25 01:20:14</sys_updated_on>
+        <sys_updated_by>srividya</sys_updated_by>
+        <sys_updated_on>2024-09-26 18:51:17</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>a708f756c3f092103816554d050131bb</id>
+        <id>6313f4cbc33056103816554d0501313c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>Jay.v</sys_created_by>
-        <sys_created_on>2024-09-25 01:20:14</sys_created_on>
-        <sys_id>5909bb96c3f092103816554d0501310f</sys_id>
+        <sys_created_by>srividya</sys_created_by>
+        <sys_created_on>2024-09-26 18:51:17</sys_created_on>
+        <sys_id>d323b8cbc33056103816554d050131c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Jay.v</sys_updated_by>
-        <sys_updated_on>2024-09-25 01:20:14</sys_updated_on>
+        <sys_updated_by>srividya</sys_updated_by>
+        <sys_updated_on>2024-09-26 18:51:17</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
