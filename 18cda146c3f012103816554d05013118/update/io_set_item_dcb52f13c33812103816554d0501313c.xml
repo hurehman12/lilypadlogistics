@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Wood Pallets">49bd269bc3f012103816554d0501316f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 02:29:43</sys_created_on>
+        <sys_id>dcb52f13c33812103816554d0501313c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set for pallets.Wood Pallets</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>io_set_item_dcb52f13c33812103816554d0501313c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 02:29:43</sys_updated_on>
+        <variable_set display_value="Set for pallets">86a2231fc3f412103816554d050131f9</variable_set>
+    </io_set_item>
+</record_update>

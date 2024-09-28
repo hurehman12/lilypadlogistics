@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Pallets">f58851b6c3fcd2103816554d050131c2</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -23,13 +23,13 @@
         <example_text/>
         <field/>
         <global>false</global>
-        <help_tag>More information</help_tag>
-        <help_text/>
+        <help_tag>Delivery Information</help_tag>
+        <help_text>Please note that depending on your delivery date, additional approvals may be required.</help_text>
         <hidden>false</hidden>
-        <include_none>true</include_none>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table>x_1394608_lilly_pa_pallets</list_table>
+        <list_table/>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>please_select_which_pallets_you_need</name>
-        <order>1</order>
+        <name>when_do_you_want_this_delivered</name>
+        <order/>
         <post_insert_script/>
-        <price_if_checked>19</price_if_checked>
+        <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Please select which pallets you need.</question_text>
+        <question_text>When do you want this delivered?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -69,32 +69,32 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
-        <show_help_on_load>false</show_help_on_load>
+        <show_help>true</show_help>
+        <show_help_on_load>true</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-26 18:03:33</sys_created_on>
-        <sys_id>3738a8cbc3fc16103816554d05013157</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Please select which pallets you need.</sys_name>
+        <sys_created_on>2024-09-28 02:17:23</sys_created_on>
+        <sys_id>43b2271fc3f412103816554d050131a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>When do you want this delivered?</sys_name>
         <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
-        <sys_update_name>item_option_new_3738a8cbc3fc16103816554d05013157</sys_update_name>
+        <sys_update_name>item_option_new_43b2271fc3f412103816554d050131a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-26 18:17:05</sys_updated_on>
+        <sys_updated_on>2024-09-28 02:28:07</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>3</type>
+        <type>9</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set/>
+        <variable_set display_value="Set for pallets">86a2231fc3f412103816554d050131f9</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=3738a8cbc3fc16103816554d05013157"/>
-    <fx_price action="delete_multiple" query="id=3738a8cbc3fc16103816554d05013157"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=43b2271fc3f412103816554d050131a0"/>
+    <fx_price action="delete_multiple" query="id=43b2271fc3f412103816554d050131a0"/>
     <fx_price action="INSERT_OR_UPDATE">
-        <amount>19</amount>
+        <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>3738a8cbc3fc16103816554d05013157</id>
+        <id>43b2271fc3f412103816554d050131a0</id>
         <parent/>
-        <reference_amount>19</reference_amount>
+        <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-26 18:03:33</sys_created_on>
-        <sys_id>0848a8cbc3fc16103816554d0501315f</sys_id>
+        <sys_created_on>2024-09-28 02:17:23</sys_created_on>
+        <sys_id>efd22b1fc3f412103816554d05013159</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-26 18:03:33</sys_updated_on>
+        <sys_updated_on>2024-09-28 02:17:23</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>3738a8cbc3fc16103816554d05013157</id>
+        <id>43b2271fc3f412103816554d050131a0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-26 18:03:33</sys_created_on>
-        <sys_id>cc48a8cbc3fc16103816554d0501315e</sys_id>
+        <sys_created_on>2024-09-28 02:17:23</sys_created_on>
+        <sys_id>efd22b1fc3f412103816554d05013158</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-26 18:03:33</sys_updated_on>
+        <sys_updated_on>2024-09-28 02:17:23</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

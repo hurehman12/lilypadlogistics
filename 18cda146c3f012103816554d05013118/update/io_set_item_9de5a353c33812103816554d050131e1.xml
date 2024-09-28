@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Plastic Pallets">b1c5a353c33812103816554d05013132</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 02:30:37</sys_created_on>
+        <sys_id>9de5a353c33812103816554d050131e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set for pallets.Plastic Pallets</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>io_set_item_9de5a353c33812103816554d050131e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 02:30:37</sys_updated_on>
+        <variable_set display_value="Set for pallets">86a2231fc3f412103816554d050131f9</variable_set>
+    </io_set_item>
+</record_update>

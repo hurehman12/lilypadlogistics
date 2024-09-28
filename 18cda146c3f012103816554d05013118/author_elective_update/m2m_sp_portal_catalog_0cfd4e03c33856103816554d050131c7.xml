@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sp_portal display_value="Lilly Pad Logistics">43bc46cfc3f456103816554d050131c0</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 01:28:00</sys_created_on>
+        <sys_id>0cfd4e03c33856103816554d050131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Lilly Pad Logistics</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_0cfd4e03c33856103816554d050131c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 01:28:00</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</application>
+        <file_path/>
+        <instance_id>30ff90781bb20a9ce84d2f8dee4bcb51</instance_id>
+        <instance_name>dev274513</instance_name>
+        <name>m2m_sp_portal_catalog_0cfd4e03c33856103816554d050131c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sp_portal display_value="Lilly Pad Logistics">43bc46cfc3f456103816554d050131c0</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 01:28:00</sys_created_on><sys_id>0cfd4e03c33856103816554d050131c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Lilly Pad Logistics</sys_name><sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package><sys_policy/><sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope><sys_update_name>m2m_sp_portal_catalog_0cfd4e03c33856103816554d050131c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 01:28:00</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>1705706505</payload_hash>
+        <record_name>Service Catalog.Lilly Pad Logistics</record_name>
+        <reverted_from/>
+        <source>a4988b52c3fc52103816554d05013110</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 01:28:00</sys_created_on>
+        <sys_id>6afdce03c33856103816554d05013143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923117903f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 01:28:00</sys_updated_on>
+        <type>Portal Catalog</type>
+        <update_guid>6efdce03e738561070be93b2ffebc242</update_guid>
+        <update_guid_history>6efdce03e738561070be93b2ffebc242:1705706505</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Lilly Pad Logistics">5edb6ad7c3f012103816554d050131b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 22:17:00</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>25e13b6cf378400695c1053163696f21</sys_id>
+        <sys_metadata>0cfd4e03c33856103816554d050131c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Lilly Pad Logistics</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_scope_delete display_value="">05236a17456c4db49344d3be88d19dc4</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_0cfd4e03c33856103816554d050131c7</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_0cfd4e03c33856103816554d050131c7">6afdce03c33856103816554d05013143</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 22:17:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

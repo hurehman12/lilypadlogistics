@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f001d647c33856103816554d050131a8</sp_column>
+        <sp_widget display_value="Catalog Checkout">1efb954a7f900300688e91679ffa91f8</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 01:42:55</sys_created_on>
+        <sys_id>85611287c33856103816554d05013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>sp_instance_85611287c33856103816554d05013134</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 01:42:55</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=85611287c33856103816554d05013134"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</application>
+        <file_path/>
+        <instance_id>30ff90781bb20a9ce84d2f8dee4bcb51</instance_id>
+        <instance_name>dev274513</instance_name>
+        <name>sp_instance_85611287c33856103816554d05013134</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">f001d647c33856103816554d050131a8</sp_column><sp_widget display_value="Catalog Checkout">1efb954a7f900300688e91679ffa91f8</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 01:42:55</sys_created_on><sys_id>85611287c33856103816554d05013134</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package><sys_policy/><sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope><sys_update_name>sp_instance_85611287c33856103816554d05013134</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 01:42:55</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=85611287c33856103816554d05013134"/></record_update>]]></payload>
+        <payload_hash>-74804015</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a4988b52c3fc52103816554d05013110</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 01:42:55</sys_created_on>
+        <sys_id>89611287c33856103816554d05013136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192312537a60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 01:42:55</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8d611287aa3856105d3a435116c51635</update_guid>
+        <update_guid_history>8d611287aa3856105d3a435116c51635:-74804015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2b61d647c33856103816554d0501316c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 01:43:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>062f7ba9da674a50805324e16f248fa1</sys_id>
+        <sys_metadata>85611287c33856103816554d05013134</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_scope_delete display_value="">05236a17456c4db49344d3be88d19dc4</sys_scope_delete>
+        <sys_update_name>sp_instance_85611287c33856103816554d05013134</sys_update_name>
+        <sys_update_version display_value="sp_instance_85611287c33856103816554d05013134">89611287c33856103816554d05013136</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 01:43:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -13,7 +13,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Customers can fill out their contact information!</p>]]></description>
+        <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -81,7 +81,7 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
-        <short_description/>
+        <short_description>Customers can fill out their contact information!</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-24 22:03:36</sys_created_on>
         <sys_id>f80c4b1ac3fc52103816554d05013166</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Customer Information</sys_name>
         <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
         <sys_update_name>sc_cat_item_producer_f80c4b1ac3fc52103816554d05013166</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 01:01:06</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-28 02:46:45</sys_updated_on>
         <table_name>x_1394608_lilly_pa_customer</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>24</version>
+        <version>30</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -130,4 +130,15 @@
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f80c4b1ac3fc52103816554d05013166</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 02:42:34</sys_created_on>
+        <sys_id>6ca86757c33812103816554d0501310e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 02:42:34</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
