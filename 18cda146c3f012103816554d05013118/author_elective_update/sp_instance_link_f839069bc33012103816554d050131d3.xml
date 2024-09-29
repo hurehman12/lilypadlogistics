@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css/>
+        <glyph>child</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <short_description>Contact support to make a request, or report a problem</short_description>
+        <size>md</size>
+        <sp_column display_value="3">a439069bc33012103816554d050131d1</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>srividya</sys_created_by>
+        <sys_created_on>2024-09-27 19:45:37</sys_created_on>
+        <sys_id>f839069bc33012103816554d050131d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Help</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>sp_instance_link_f839069bc33012103816554d050131d3</sys_update_name>
+        <sys_updated_by>srividya</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:53:09</sys_updated_on>
+        <title>Get Help</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=f839069bc33012103816554d050131d3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</application>
+        <file_path/>
+        <instance_id>30ff90781bb20a9ce84d2f8dee4bcb51</instance_id>
+        <instance_name>dev274513</instance_name>
+        <name>sp_instance_link_f839069bc33012103816554d050131d3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;warning&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;child&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category display_value="Can We Help You?"&gt;e15706fc0a0a0aa7007fc21e1ab70c2f&lt;/sc_category&gt;&lt;short_description&gt;Contact support to make a request, or report a problem&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;a439069bc33012103816554d050131d1&lt;/sp_column&gt;&lt;sp_page display_value="sc_category"&gt;07261a2147132100ba13a5554ee49092&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;srividya&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-27 19:45:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f839069bc33012103816554d050131d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Help&lt;/sys_name&gt;&lt;sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa"&gt;18cda146c3f012103816554d05013118&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Lilly Pad Logistics"&gt;18cda146c3f012103816554d05013118&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_f839069bc33012103816554d050131d3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;srividya&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-27 20:53:09&lt;/sys_updated_on&gt;&lt;title&gt;Get Help&lt;/title&gt;&lt;type&gt;sc_category&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f839069bc33012103816554d050131d3"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1445680631</payload_hash>
+        <record_name>Get Help</record_name>
+        <reverted_from/>
+        <source>a035ce53c33012103816554d050131c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>srividya</sys_created_by>
+        <sys_created_on>2024-09-27 20:53:09</sys_created_on>
+        <sys_id>86a81a9fc37012103816554d050131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192354248af0000001</sys_recorded_at>
+        <sys_updated_by>srividya</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:53:09</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>0ea81a9f3670121038cb9bbeb90034e0</update_guid>
+        <update_guid_history>0ea81a9f3670121038cb9bbeb90034e0:1445680631,821c429fc030121013dbde92c32f168c:2073102066,bc39069b0f30121033701ee4a7add9d4:-1638130831</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Get Help">7e1c96d3c3b012103816554d050131c0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>srividya</sys_created_by>
+        <sys_created_on>2024-09-27 21:08:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>8f0f04b701f44ce28295b6b6389b5604</sys_id>
+        <sys_metadata>f839069bc33012103816554d050131d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Help</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_scope_delete display_value="">05236a17456c4db49344d3be88d19dc4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_f839069bc33012103816554d050131d3</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_f839069bc33012103816554d050131d3">86a81a9fc37012103816554d050131e1</sys_update_version>
+        <sys_updated_by>srividya</sys_updated_by>
+        <sys_updated_on>2024-09-27 21:08:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
