@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+  var c = this;
+
+  
+  c.pallets = [
+    { type: 'Plastic', size: 'Small', weightCapacity: 200 },
+    { type: 'Plastic', size: 'Medium', weightCapacity: 500 },
+    { type: 'Plastic', size: 'Large', weightCapacity: 1000 },
+    { type: 'Metal', size: 'Small', weightCapacity: 300 },
+    { type: 'Metal', size: 'Medium', weightCapacity: 700 },
+    { type: 'Metal', size: 'Large', weightCapacity: 1200 },
+    { type: 'Wood', size: 'Small', weightCapacity: 250 },
+    { type: 'Wood', size: 'Medium', weightCapacity: 600 },
+    { type: 'Wood', size: 'Large', weightCapacity: 1100 }
+  ];
+
+  
+  c.totalWeight = 0;
+  c.selectedPalletType = null;
+  c.selectedPalletSize = null;
+  c.mostEfficientPallet = null;
+
+  
+  c.getFilteredPallets = function() {
+    return c.pallets.filter(function(pallet) {
+      return pallet.type === c.selectedPalletType;
+    });
+  };
+
+  
+  c.findMostEfficientPallet = function() {
+    c.mostEfficientPallet = null; // Reset previous selection
+
+    if (c.totalWeight > 0) {
+      
+      var sortedPallets = c.pallets.slice().sort(function(a, b) {
+        return a.weightCapacity - b.weightCapacity;
+      });
+
+    
+      for (var i = 0; i < sortedPallets.length; i++) {
+        if (sortedPallets[i].weightCapacity >= c.totalWeight) {
+          c.mostEfficientPallet = sortedPallets[i];
+          break;
+        }
+      }
+
+      
+      if (!c.mostEfficientPallet) {
+        c.mostEfficientPallet = sortedPallets[sortedPallets.length - 1];
+      }
+    }
+  };
+
+  
+  c.calculatePallets = function() {
+    if (c.totalWeight && c.selectedPalletType && c.selectedPalletSize) {
+      var selectedPallet = c.pallets.find(function(pallet) {
+        return pallet.type === c.selectedPalletType && pallet.size === c.selectedPalletSize;
+      });
+      
+      if (selectedPallet) {
+        c.palletsNeeded = Math.ceil(c.totalWeight / selectedPallet.weightCapacity);
+      } else {
+        c.palletsNeeded = 0;
+      }
+    } else {
+      c.palletsNeeded = 0;
+    }
+  };
+};
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+.pallet-calculator-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.pallet-calculator-container .form-group {
+    margin-bottom: 15px;
+}
+
+.pallet-calculator-container label {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+
+.pallet-calculator-container input,
+.pallet-calculator-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+    line-height: normal; 
+}
+
+
+.pallet-calculator-container select {
+    appearance: none;  
+    height: auto;  
+    padding: 12px; 
+    font-size: 1em;  
+}
+
+
+.pallet-calculator-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pallet-calculator-container button:hover {
+    background-color: #0056b3;
+}
+
+
+.pallet-calculator-container .result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e6f7ff;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.pallet-calculator-container .result p {
+    margin: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+.pallet-calculator-container .efficient-pallet {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f0fdf4;
+    border-left: 5px solid #28a745;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.pallet-calculator-container .efficient-pallet p {
+    margin: 0;
+    color: #28a745;
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+    .pallet-calculator-container {
+        padding: 10px;
+    }
+
+    .pallet-calculator-container button {
+        font-size: 1em;
+    }
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>pallet_selector</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Pallet Selector</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 22:40:16</sys_created_on>
+        <sys_id>54fd4a5cc30156103816554d05013113</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Pallet Selector</sys_name>
+        <sys_package display_value="Lilly Pad Logistics" source="x_1394608_lilly_pa">18cda146c3f012103816554d05013118</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lilly Pad Logistics">18cda146c3f012103816554d05013118</sys_scope>
+        <sys_update_name>sp_widget_54fd4a5cc30156103816554d05013113</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 22:58:47</sys_updated_on>
+        <template><![CDATA[<div class="pallet-calculator-container">
+  <div class="form-group">
+    <label for="totalWeight">Total Weight (in lbs):</label>
+    <input type="number" id="totalWeight" ng-model="c.totalWeight" ng-change="c.findMostEfficientPallet()" class="form-control" placeholder="Enter total weight">
+  </div>
+
+  <div class="form-group">
+    <label for="palletType">Pallet Type:</label>
+    <select id="palletType" ng-model="c.selectedPalletType" class="form-control">
+      <option value="" disabled selected>Select Pallet Type</option>
+      <option value="Plastic">Plastic</option>
+      <option value="Metal">Metal</option>
+      <option value="Wood">Wood</option>
+    </select>
+  </div>
+
+  <div class="form-group" ng-if="c.selectedPalletType">
+    <label for="palletSize">Pallet Size:</label>
+    <select id="palletSize" ng-model="c.selectedPalletSize" class="form-control">
+      <option value="" disabled selected>Select Pallet Size</option>
+      <option ng-repeat="pallet in c.getFilteredPallets()" value="{{pallet.size}}">{{pallet.size}}</option>
+    </select>
+  </div>
+
+  <button class="btn btn-primary" ng-click="c.calculatePallets()">Calculate Pallets</button>
+
+  <div class="result" ng-if="c.palletsNeeded !== undefined">
+    <p>You need {{c.palletsNeeded}} pallet(s) for {{c.totalWeight}} lbs using {{c.selectedPalletType}} pallets of {{c.selectedPalletSize}} size.</p>
+  </div>
+
+  <div class="efficient-pallet" ng-if="c.mostEfficientPallet">
+    <p>The most efficient pallet for {{c.totalWeight}} lbs is {{c.mostEfficientPallet.type}} - {{c.mostEfficientPallet.size}} ({{c.mostEfficientPallet.weightCapacity}} lbs capacity).</p>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>54fd4a5cc30156103816554d05013113</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 23:06:40</sys_created_on>
+        <sys_id>d7f31250c34156103816554d0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 23:06:40</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
